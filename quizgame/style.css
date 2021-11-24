@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: calc(0.5em + 1vw);
+}
+.container{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    text-align: center;
+}
+#title {
+    display: inline-block;
+    position: inherit;
+    margin-top: 10vh;
+    color: whitesmoke;
+    width: 100%;
+}
+#question {
+    display: inline-block;
+    position: inherit;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 1.2em;
+    color: darkslateblue;
+}
+.centerArea {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+#thereIsAnswers {
+    display: flex;
+    flex-wrap: wrap;
+    position: inherit;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    border-radius: 8px;
+}
+.fourOptions {
+    margin-bottom: 20px;
+}
+#submit {
+    margin-left: -12.5%;
+    left: 50%;
+    bottom: 15vh;
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    border: 2px solid darkslateblue;
+    border-radius: 6px;
+    color: darkslateblue;
+    font-size: 1em;
+    cursor: pointer;
+}
+#count {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    text-align: left;
+    color: darkslateblue;
+    margin: 20px;
+}
+#divForImg {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+#quizImg {
+    display: inline-block;
+    width: 80%;
+    margin: 5px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+.fourOptions {
+    display: flex;
+    width: 50%;
+    height: 2em;  
+    margin-left: 7%;  
+}
+.radioBtn {
+    float: left;
+    opacity: 0;
+}
+.fourOptions>label {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1em;
+}
+.fourOptions .radioBtn:checked + label {
+    background-color: darkslateblue;
+    border-color: navy;
+    border-radius: 8px;
+}
+.fourOptions .radioBtn + label {
+    border-radius: 8px;
+    border: 2px solid white;
+}

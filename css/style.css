@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+body {
+    font-size: calc(0.3em + 1vw);
+}
+.fullBody{
+    background-color: rgb(63, 62, 62);
+    height: 100%;
+    text-align: center;
+}
+#photoIcon {
+    width: 40px;
+    clip-path: circle(50%);
+}
+.videoFrame {
+    position: relative;
+    height: 30vh;
+}
+#fractalsBg {
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#navbarSupportedContent>ul>li>a {
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+#navbarSupportedContent>ul>li>a:hover {
+    color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 6px;
+}
+.smthAbout {
+    display: inline-block;
+    width: 50vw;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;    
+    color: white;
+    margin-top: 30px;
+}
+.smthAbout>p {
+    margin-top: 60px;
+    font-size: 1.2em;
+}
+#sprtLn {
+    margin-top: 60px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.listSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 10px 0px 10px;
+}
+.mySklls>p {
+    font-size: 0.7em;
+    text-align: left;
+    margin-left: 10px;
+}
+.mySklls>p>a {
+    text-decoration: none;
+    color: grey;
+}
+.sklls {
+    list-style: none;
+}
+.setPrjcts {
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto 20px auto;
+    row-gap: 20px;
+
+}
+.Project {
+    display: inline-block;
+    width: 30%;
+    min-width: 300px;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px;
+}
+.Project:hover {
+    cursor: pointer;
+    border: 2px solid darkorange;
+}
+.carousel-inner .carousel-item img {
+    margin-top: 10px;
+    display: inline-block;
+    width: 80%;
+    border-radius: 6%;
+}
+.imgForProj {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 6%;
+}
+.Project>p {
+    color: white;
+}
+.Project>p>a {
+    color: white;
+}
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(50%);
+}
+.contactDetails {
+    text-align: left;
+}
+.cntctMeForm {
+    margin: 20px;
+}
+.cntctMeForm>label {
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+.cntctMeForm>input, .cntctMeForm>textarea {
+    display: inline-block;
+    width: 50%;
+    
+}
+#btnSubmEmail {
+    background-color: rgb(36, 34, 34);
+    border: 2px solid white;
+    border-radius: 6px;
+}
+#my-form-status {
+    display: inline-block;
+    color: white;
+    margin: 10px auto 10px auto;
+}
